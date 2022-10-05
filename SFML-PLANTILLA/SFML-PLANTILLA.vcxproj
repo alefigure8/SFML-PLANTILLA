@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -24,6 +24,7 @@
     <ProjectGuid>{2597d963-aa5b-489b-8cce-da1030d66be7}</ProjectGuid>
     <RootNamespace>SFMLPLANTILLA</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SFML-TEST-4</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,6 +140,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animacion.cpp" />
+    <ClCompile Include="Arma.cpp" />
+    <ClCompile Include="Bala.cpp" />
+    <ClCompile Include="Caja.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Efectos.cpp" />
+    <ClCompile Include="Gameplay.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Bloque.cpp" />
+    <ClCompile Include="Ladrillo.cpp" />
+    <ClCompile Include="Arbol.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animacion.h" />
+    <ClInclude Include="Arbol.h" />
+    <ClInclude Include="Arma.h" />
+    <ClInclude Include="Bala.h" />
+    <ClInclude Include="Bloque.h" />
+    <ClInclude Include="Caja.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Efectos.h" />
+    <ClInclude Include="Gameplay.h" />
+    <ClInclude Include="Ladrillo.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SFML-TEST-4.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
