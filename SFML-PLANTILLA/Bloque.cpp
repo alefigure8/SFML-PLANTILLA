@@ -72,6 +72,7 @@ void Bloque::update()
 	currentImage.x = 4 - _life; //A medida que baja la vida se modifica la imagen del sprite
 	_animacion.setCurrentImage(currentImage);
 	_sprite.setTextureRect(_animacion.uvRect);
+	_sprite.setOrigin(_animacion.uvRect.width / 2, _animacion.uvRect.height / 2); //Cambia el origen segun el sprite
 	_animacion.update();
 }
 
