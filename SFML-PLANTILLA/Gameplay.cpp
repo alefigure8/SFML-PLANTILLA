@@ -204,7 +204,7 @@ void Gameplay::updateBalas()
 void Gameplay::colliderBloqueLadrillo()
 {
 	//PLAYER  COLLIDER LADRILLO
-	if (_player->getBounds().intersects(_bloque_ladrillo->getBounds()) && _bloque_ladrillo -> getLife() != 4) //Si la casa está rota pasa por encima
+	if (_player->getBounds().intersects(_bloque_ladrillo->getBounds()) && _bloque_ladrillo -> getLife() != 4) //Si la casa estÃ¡ rota pasa por encima
 	{
 		if (_player->getUltimaPosicion().y + (_player->getBounds().height / 2.f) <= _bloque_ladrillo->getBounds().top)
 		{
@@ -304,8 +304,10 @@ void Gameplay::colliderBloqueCaja()
 //Collider bloque
 void Gameplay::updateColliders()
 {
-	colliderBloqueLadrillo();
-	colliderBloqueCaja();
+	Collider c = _player->getCollider();
+	_bloque_ladrillo->getCollider().CheckCollision(c, 1.f);
+	_bloque_ladrillo_2->getCollider().CheckCollision(c, 1.f);
+	_bloque_caja->getCollider().CheckCollision(c, 0.5f);
 }
 
 void Gameplay::updateEfectos()
