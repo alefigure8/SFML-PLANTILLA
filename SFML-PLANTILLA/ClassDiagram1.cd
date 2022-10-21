@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Animacion">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAQAiAAAAgAEAAAAAAAAAAAAQAAEAAAAEAAA=</HashCode>
+      <FileName>Animacion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arbol">
+    <Position X="2" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Arbol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arma">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKQAAAQAAAACAAAAAAAACiAAQAAAAAAEAEQAUABA=</HashCode>
+      <FileName>Arma.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bala">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAKwAAARAAAABAAAAAAAAAAAAQAAAAAAAoAAAUAAQ=</HashCode>
+      <FileName>Bala.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Base">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bloque">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKAAABQAEAAAAAREAAAACACAUAAACAAEAAAAVAAA=</HashCode>
+      <FileName>Bloque.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Caja">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIACAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Caja.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collider">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAAIAAAAAAAAAAACQAAEAAAQAAAA=</HashCode>
+      <FileName>Collider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Efectos">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJYAAAQAgAAgAAAAAAAACCAAQAACIgAEAAAkUBAA=</HashCode>
+      <FileName>Efectos.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gameplay">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIwAAAgAAgAAAAAAACAAwEAgBkAIUAIAQGgAUgQA=</HashCode>
+      <FileName>Gameplay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ladrillo">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ladrillo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mapa">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABBAAAAAAIAAAAAAAAAAQSAAAAAAIAEUAEA=</HashCode>
+      <FileName>Mapa.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAKQAAAQAAAIDAABAAAAACCAAQAAUAAAEAAQAUAVI=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

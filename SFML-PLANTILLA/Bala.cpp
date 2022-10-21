@@ -17,13 +17,13 @@ Bala::Bala(float pos_x, float pos_y, float x, float y, float degree)
 	initTexture();
 	initSprite();
 
-	_distncia_max = 150.f;
+	_distncia_max = 120.f;
 	_shape.setPosition(pos_x, pos_y);
 	_shape.setScale(0.5f, 0.5f);
 	_shape.setRotation(degree);
 	_direction.x = x;
 	_direction.y = y;
-	_movement_speed = 0.2f;
+	_movement_speed = 0.05f;
 }
 
 Bala::~Bala()

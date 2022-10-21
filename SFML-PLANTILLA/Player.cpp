@@ -3,7 +3,7 @@
 void Player::initSprite()
 {
 	_sprite.setTexture(_texture);
-	_sprite.setScale(1.0f, 1.0f);
+	_sprite.setScale(0.7f, 0.7f);
 	_sprite.setPosition(200, 200);
 	_sprite.setOrigin(_sprite.getLocalBounds().width/2, _sprite.getLocalBounds().height/2);
 }

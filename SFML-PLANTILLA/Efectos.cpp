@@ -3,7 +3,7 @@
 void Efectos::initSprite()
 {
 	_sprite.setTexture(_texture);
-	_sprite.setScale(0.5f, 0.5f);
+	_sprite.setScale(0.2f, 0.2f);
 	_sprite.setOrigin(_sprite.getGlobalBounds().width / 2, _sprite.getGlobalBounds().top);
 }
 

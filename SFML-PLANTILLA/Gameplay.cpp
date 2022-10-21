@@ -10,9 +10,11 @@
 
 void Gameplay::_initWindow()
 {
-	_window = new sf::RenderWindow(sf::VideoMode(800, 600), "Game test", sf::Style::Close | sf::Style::Titlebar);
+	_window = new sf::RenderWindow(sf::VideoMode(900, 700), "Game test", sf::Style::Close | sf::Style::Titlebar);
 	_window->setFramerateLimit(60);
 	_window->setVerticalSyncEnabled(false);
+	sf::View view(sf::FloatRect(-20, -15, 900, 700));
+	_window->setView(view);
 }
 
 void Gameplay::_initPlayer()
@@ -42,6 +44,7 @@ void Gameplay::_initBloque() //Vectores
 	_mapa = new Mapa;
 	_bloque_caja = new Caja("Texture/truck2b_destroyed.png", sf::Vector2u(1, 1));
 	_bloque_caja->setPosition({ 200, 300 });
+	_bloque_caja->setScale({ 0.7, 0.7 });
 	_bloque_arbol = new Arbol("Texture/treeGreen_large.png", sf::Vector2u(1, 1));
 	_bloque_arbol->setPosition({ 100, 150 });
 }
@@ -91,6 +94,7 @@ void Gameplay::updatePollevents()
 	{
 		if (event.type == sf::Event::Closed)
 			_window->close();
+		
 	}
 }
 

@@ -23,7 +23,9 @@ bool Collider::CheckCollision(Collider& other, float push)
 	float deltaY = otherPosition.y - thisPosition.y;
 	
 	float intersectX = abs(deltaX) - (otherHalfSize.x + thisHalfSize.x);
-	float intersectY = abs(deltaY) - (otherHalfSize.y + thisHalfSize.y);
+	float intersectY = abs(deltaY) - (otherHalfSize.y + thisHalfSize.y);	
+
+
 	
 	if (intersectX < 0.0f && intersectY < 0.0f)
 	{
